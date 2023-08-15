@@ -19,9 +19,9 @@ provider "aws" {
 }
 
 module "webserver" {
-    source = ""
+    source = "git::https://github.com/densantos/tf-aws-simple-app-ec2-infra.git"
     name = ""
-    key_pair = ""
+    key_name = ""
 } 
 ```
 
