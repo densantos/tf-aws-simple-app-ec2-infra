@@ -1,7 +1,7 @@
 
 ---
 
-## Pre Requisites 
+## Summary
 
 This module deploys a Webserver into an EC2 and all required components to run and access a webapp.
 
