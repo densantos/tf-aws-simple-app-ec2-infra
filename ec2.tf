@@ -12,10 +12,10 @@ resource "aws_instance" "ec2" {
   user_data = <<EOF
 #!/bin/bash
         
-sudo apt-get update -y
+sudo apt update -y
 sudo apt install nodejs npm -y
-sudo apt-get install nginx -y
-sudo apt-get install git
+sudo apt install nginx -y
+sudo apt install git
 
 EOF
  
