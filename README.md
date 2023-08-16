@@ -34,6 +34,7 @@ module "webserver" {
 - Deploy a Network Interface
 - Deploy a Security Group
 - Deploy an IAM role require for SSM
+- A Public IP
 
 ## Configuration
 
