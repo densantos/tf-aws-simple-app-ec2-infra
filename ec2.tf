@@ -12,10 +12,9 @@ resource "aws_instance" "ec2" {
   user_data = <<EOF
 #!/bin/bash
         
-sudo apt-get update
-sudo apt-get install nginx
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - &&\
-sudo apt-get install -y nodejs
+sudo apt-get update -y
+sudo apt install nodejs npm -y
+sudo apt-get install nginx -y
 sudo apt-get install git
 
 EOF
